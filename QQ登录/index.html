@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<form method="get" action="next.html" enctype="multipart/form-data">
+		<table width="400" height="320" border="1" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+					<table>
+						<tr height="45">
+							<td valign="top"><img src="img/bg_chs.png" width="100%"/ ></td>
+						</tr>
+						<tr height="36">
+							<td valign="top"><strong>注册账号</strong></td>
+						</tr>
+						<tr height="36">
+							<td valign="top">昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：<input type="text" pattern="[-\w\u4E00-\u9FA5]{4,10}" name="userName" size="10" required="required" placeholder="请输入用户名" />&nbsp;&nbsp;<font size="2"><em>长度为4-10个字符</em></font></td>
+						</tr>
+						<tr height="36">
+							<td valign="top">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" pattern="[\dA-Za-z]{6,16}" name="pwd" size="10" required="required" />&nbsp;&nbsp;<font size="2"><em>长度为6-16个字符</em></font></td>
+						</tr>
+						<tr height="36">
+							<td valign="top">确认密码：<input type="password" pattern="[\dA-Za-z]{6,16}" name="pwd" size="10" required="required" />&nbsp;&nbsp;<font size="2"><em>长度为6-16个字符</em></font></td>
+						</tr>
+						<tr height="36">
+							<td valign="top">手机号码：<input type="tel" pattern="1[3578]\d{9}" name="tel" size="10" required="required" />&nbsp;&nbsp;<font size="2"><em>以[3][5][7][8]开头</em></font></td>
+						</tr>
+						<tr height="36">
+							<td>电子邮件：<input type="email" /></td>
+						</tr>
+						<tr height="36">
+							<td>年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄：<input type="number" min="0" max="100" step="1" /></td>
+						</tr>
+						<tr height="45">
+							<td valign="bottom" align="center"><input type="image" src="img/btn.bmp" width="130"/></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
