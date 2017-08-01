@@ -1,0 +1,19 @@
+ul{
+	display: inline-block;
+}
+li>h5{
+	font-size: 16px;
+	color: #4D4D4D;
+}
+img{
+	width: 180px;
+	height: 250px;
+}
+.p1{
+	font-size: 14px;
+	color: #640000;
+}
+.p2{
+	font-size: 12px;
+	color: blue;
+}
