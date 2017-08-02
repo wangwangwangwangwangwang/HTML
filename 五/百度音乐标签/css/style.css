@@ -1,0 +1,11 @@
+h3{
+	font: bold 18px "楷体";
+}
+P,span{
+	font: 12px "times new roman","宋体";
+	line-height: 20px;
+}
+span{
+	color: red;
+	letter-spacing: 2em;
+}
